@@ -40,7 +40,7 @@ def ai_review(result,chart,model):
 class Handler(BaseHTTPRequestHandler):
     def log_message(self,*args):pass
     def send_json(self,obj,code=200):
-        data=json.dumps(obj,allow_nan=False).encode();self.send_response(code);self.send_header('Content-Type','application/json');self.send_header('Cache-Control','no-store');self.send_header('X-Content-Type-Options','nosniff');self.end_headers();self.wfile.write(data)
+        data=json.dumps(obj,allow_nan=False).encode();self.send_response(code);self.send_header('Content-Type','application/json');self.send_header('Content-Length',str(len(data)));self.send_header('Cache-Control','no-store');self.send_header('X-Content-Type-Options','nosniff');self.end_headers();self.wfile.write(data)
     def safe_host(self):return self.headers.get('Host') in (f'127.0.0.1:{self.server.server_port}',f'localhost:{self.server.server_port}')
     def do_GET(self):
         if not self.safe_host():return self.send_json({'error':'Invalid host'},403)
@@ -54,7 +54,16 @@ class Handler(BaseHTTPRequestHandler):
         if not p.resolve().is_relative_to(BASE/'static') or not p.is_file():return self.send_json({'error':'Not found'},404)
         self.send_response(200);self.send_header('Cache-Control','no-store');self.send_header('X-Content-Type-Options','nosniff');self.send_header('Content-Type','text/html' if p.suffix=='.html' else 'text/javascript' if p.suffix=='.js' else 'text/css');self.end_headers();self.wfile.write(p.read_bytes())
     def do_POST(self):
-        if not self.safe_host() or self.headers.get('X-Stellar-Token')!=TOKEN:return self.send_json({'error':'Local session authentication failed'},403)
+        if not self.safe_host() or self.headers.get('X-Stellar-Token')!=TOKEN:
+            # Drain only a bounded body before closing, so macOS does not reset
+            # the connection before the client receives the rejection response.
+            try:
+                length=int(self.headers.get('Content-Length',0))
+                if 0<length<=1_000_000:
+                    if hasattr(self,'connection'):self.connection.settimeout(2)
+                    self.rfile.read(length)
+            except (ValueError,OSError):pass
+            return self.send_json({'error':'Local session authentication failed'},403)
         try:
             length=int(self.headers.get('Content-Length',0))
             if length<0 or length>1_000_000:raise ValueError('Request too large')
