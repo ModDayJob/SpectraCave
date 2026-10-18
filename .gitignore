@@ -17,3 +17,7 @@ verification/
 .DS_Store
 dist/
 release-staging/
+
+# Curated public documentation images only.
+!docs/media/*.png
+!docs/media/*.jpg
