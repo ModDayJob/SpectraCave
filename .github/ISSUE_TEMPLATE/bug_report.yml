@@ -1,0 +1,38 @@
+name: Report a problem
+description: Help improve the SpectraCave beta.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for trying SpectraCave. This report is public: leave out passwords, API keys, private headers, and personal observing details."
+  - type: input
+    id: version
+    attributes:
+      label: SpectraCave version
+      placeholder: "0.3.0-beta.1"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system and Python version
+      placeholder: "macOS / Windows / Linux; Python 3.10 or newer"
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Observing setup, if relevant
+      description: Camera, grating, binning, and FITS type. Sharing original images is optional.
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you try?
+      description: Include the steps, what you expected, and what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or screenshot
+      description: Review it for private information before sharing.

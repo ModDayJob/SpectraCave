@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Setup and first-spectrum guide
+    url: https://github.com/ModDayJob/SpectraCave/blob/main/docs/BETA_GUIDE.md
+    about: Download, installation, and your first extraction.
+  - name: Measurement methods and limits
+    url: https://github.com/ModDayJob/SpectraCave/blob/main/SCIENCE.md
+    about: Calibration, candidate features, and scientific interpretation.
