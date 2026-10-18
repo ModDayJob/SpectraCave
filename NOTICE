@@ -1,0 +1,8 @@
+Required Notice: Copyright 2026 ModDayJob (https://github.com/ModDayJob)
+
+SpectraCave is licensed under PolyForm Noncommercial License 1.0.0.
+Third-party dependencies retain their own licenses. NumPy and Pillow are installed
+separately from PyPI and are not bundled in the source download.
+
+AAVSO and NIST are independent resources; neither endorses this software.
+No AAVSO observational data are bundled in this release.

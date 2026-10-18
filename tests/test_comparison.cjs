@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict');
+const {select}=require('../static/comparison.js');
+const job=(id,scale=null,offset_nm=0)=>({id,label:id,state:'done',result:{settings:{scale,offset_nm}},chart:{axis:[410,510],full:[1,2]}});
+let stars=[job('reference',.5,10),job('new-star'),job('another',1)];
+let a=select(stars,new Set(),'pixels');
+assert.equal(a.curves.length,3);assert.deepEqual(a.curves[0].x,[800,1000]);assert.deepEqual(a.curves[1].x,[410,510]);
+assert.deepEqual(stars[0].chart.axis,[410,510],'Conversion must not mutate originals');
+a=select(stars,new Set(),'wavelength');assert.equal(a.curves.length,2);assert.equal(a.unavailable[0].id,'new-star');
+a=select(stars,new Set(['reference','another']),'pixels');assert.deepEqual(a.curves.map(j=>j.id),['new-star']);
+stars.push(job('future-star'));assert.equal(select(stars,new Set(),'pixels').curves.length,4,'New completions appear dynamically');
+assert.equal(select(stars,new Set(stars.map(j=>j.id)),'pixels').curves.length,0);
+console.log('Comparison selection, axis conversion, new stars and source preservation passed');
