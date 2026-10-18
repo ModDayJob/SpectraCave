@@ -2,11 +2,11 @@
 
 ### Explore the science hidden in starlight.
 
-**[Download the beta](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-0.3.0-beta.1.zip) · [Watch the promo](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-Explore-the-Light-v3-landscape.mp4) · [Getting started](docs/BETA_GUIDE.md#get-started)**
+**[Download the beta](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-0.3.0-beta.1.zip) · [Watch the promo](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-promo-real-data-landscape.mp4) · [Getting started](docs/BETA_GUIDE.md#get-started)**
 
 Free for noncommercial use · Public beta **0.3.0-beta.1** · **Python 3.10+ required**
 
-[![SpectraCave — Every star has a story. Watch the approved Explore the Light promo.](docs/media/promo-cover.jpg)](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-Explore-the-Light-v3-landscape.mp4)
+[![SpectraCave — Every star has a story. Watch the approved Explore the Light promo.](docs/media/promo-cover.jpg)](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-promo-real-data-landscape.mp4)
 
 Your telescope captures light. SpectraCave helps you investigate the clues inside it.
 Turn your spectroscopic FITS captures into graphs, choose the stars you want to
@@ -27,10 +27,11 @@ measurements become evidence.
 - **Keep the evidence.** Export spectrum CSVs and evidence JSON. Original FITS
   captures stay untouched; calibrated results are created as copies.
 
-![Actual SpectraCave comparison with synthetic demonstration spectra, illustrative wavelength colors, and laboratory guides.](docs/media/spectrum-demo.png)
+![Actual Pleiades, Mirach, and Aldebaran observing measurements from Advent Skies Observatory, 18 October 2026.](docs/media/spectrum-observations-20261018.png)
 
-*Actual beta interface with synthetic teaching data. Wavelength colors are
-illustrative. Reference guides and repeating features do not confirm chemical identities.*
+*Actual observing measurements from Advent Skies Observatory, 18 October 2026.
+The wavelength scale is provisional, and colors are illustrative.
+[See the observations, frame counts, and evidence](docs/OBSERVATIONS.md).*
 
 ## Start exploring
 
@@ -51,12 +52,13 @@ other equipment has not been broadly validated.
 
 ## Explore with The AstroCave Team
 
-- **Your first spectrum · 1:18** — [Watch landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-landscape.mp4) · [Watch vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-vertical.mp4)
-- **Calibrate and compare · 1:36** — [Watch landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-landscape.mp4) · [Watch vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-vertical.mp4)
+- **Your first spectrum · 1:23** — [Watch landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-real-data-landscape.mp4) · [Watch vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-real-data-vertical.mp4)
+- **Calibrate and compare · 1:39** — [Watch landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-real-data-landscape.mp4) · [Watch vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-real-data-vertical.mp4)
 
-The tutorials use labeled synthetic examples. The
-[how-to and teaser download pack](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-Howtos-and-Teasers.zip)
-includes the videos and a synthetic calibration exercise you can try yourself.
+The tutorials now use the actual observing session. The
+[how-to and teaser download pack](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-Real-Observations-Media.zip)
+includes the videos and the saved measured spectra and evidence.
+The reference fit used four proposed lines; no held-out check was recorded.
 For short clips and sharing material, visit [Share SpectraCave](docs/MEDIA.md).
 
 ## Curious about the science?
