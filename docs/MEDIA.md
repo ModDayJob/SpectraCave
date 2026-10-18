@@ -26,10 +26,8 @@ synthetic data.
 
 ## Short teasers
 
-| Clip | Length | Downloads |
-| --- | --- | --- |
-| A question in the light | 14 seconds | [Landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-teaser-starlight-landscape.mp4) · [Vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-teaser-starlight-vertical.mp4) |
-| Your stars, your questions | 14 seconds | [Landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-teaser-compare-landscape.mp4) · [Vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-teaser-compare-vertical.mp4) |
+- **A question in the light · 14 seconds** — [Landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-teaser-starlight-landscape.mp4) · [Vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-teaser-starlight-vertical.mp4)
+- **Your stars, your questions · 14 seconds** — [Landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-teaser-compare-landscape.mp4) · [Vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-teaser-compare-vertical.mp4)
 
 [Download both teasers, the two longer how-tos, and a synthetic calibration exercise](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-Howtos-and-Teasers.zip).
 

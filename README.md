@@ -51,10 +51,8 @@ other equipment has not been broadly validated.
 
 ## Learn with Fred and TomatoGirl
 
-| How-to | Length | Watch |
-| --- | --- | --- |
-| Your first spectrum | 1:18 | [Landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-landscape.mp4) · [Vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-vertical.mp4) |
-| Calibrate and compare | 1:36 | [Landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-landscape.mp4) · [Vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-vertical.mp4) |
+- **Your first spectrum · 1:18** — [Watch landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-landscape.mp4) · [Watch vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-vertical.mp4)
+- **Calibrate and compare · 1:36** — [Watch landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-landscape.mp4) · [Watch vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-vertical.mp4)
 
 The tutorials use labeled synthetic examples. The
 [how-to and teaser download pack](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-Howtos-and-Teasers.zip)
