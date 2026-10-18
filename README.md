@@ -49,7 +49,7 @@ A regular sky photograph can inspire a question; spectral measurements are
 needed to investigate composition. Initial development used an ASI585MC and SA200;
 other equipment has not been broadly validated.
 
-## Learn with Fred and TomatoGirl
+## Explore with The AstroCave Team
 
 - **Your first spectrum · 1:18** — [Watch landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-landscape.mp4) · [Watch vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-first-spectrum-vertical.mp4)
 - **Calibrate and compare · 1:36** — [Watch landscape](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-landscape.mp4) · [Watch vertical](https://github.com/ModDayJob/SpectraCave/releases/download/v0.3.0-beta.1/SpectraCave-howto-calibrate-compare-vertical.mp4)
@@ -70,12 +70,10 @@ Read [How the measurements work](SCIENCE.md) for methods and limits, or open the
 [full beta guide](docs/BETA_GUIDE.md) for supported files, calibration, and advanced controls.
 
 <details>
-<summary><strong>Optional AI, privacy, and AAVSO</strong></summary>
+<summary><strong>Privacy and AAVSO</strong></summary>
 
-Local extraction and comparison work without an AI account. Optional AI review
-sends numerical evidence and sampled profiles to OpenAI only when requested;
-provider API charges may apply. It offers AI perspectives, not human expert
-sign-off. [Privacy details](PRIVACY.md).
+The workbench runs locally and preserves your original captures.
+See [Privacy details](PRIVACY.md) for local storage and optional external services.
 
 The app links to AAVSO resources. AAVSO API access, 1-D reference FITS import,
 and submission-ready FITS export are not implemented in this beta. AAVSO and
@@ -92,5 +90,4 @@ observing information out of public reports.
 Free for noncommercial use under [PolyForm Noncommercial 1.0.0](LICENSE).
 Donations are welcome; no payment is required. See the license for its exact permissions.
 
-*Astrophotography by Brother Fred. Promo and tutorial narration uses
-ElevenLabs-generated Fred and TomatoGirl voices.*
+*Created by **The AstroCave Team**. Astrophotography by **Advent Skies Observatory**.*
